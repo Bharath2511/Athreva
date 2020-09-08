@@ -6,14 +6,27 @@ const passport = require("passport");
 
 const User = require("../models/User");
 
-router.get("/test", (req, res) => {
-  res.json({ msg: "users works" });
-});
+/**
+ * @swagger
+ * /login:
+ *    post:
+ *      description: To give access to our private routes for existing user
+ *    parameters:
+ *      - name: email
+ *        in: body
+ *      - name: password
+ *        in: body
+ *        description: unique email and password of our customer
+ *        required: true
+ *        schema:
+ *          type: string
+ *          format: string
+ *    responses:
+ *      '200':
+ *        description: Successfully loggen in the user
+ */
 
 router.post("/login", (req, res) => {
-  //check validation
-  //there are errors isValid is false
-
   const email = req.body.email;
   const password = req.body.password;
   //find the user by email
@@ -38,7 +51,7 @@ router.post("/login", (req, res) => {
           (err, token) => {
             res.json({
               success: true,
-              token: token,
+              token: "Bearer " + token,
               id: user.id
             });
           }
@@ -50,6 +63,28 @@ router.post("/login", (req, res) => {
     });
   });
 });
+
+/**
+ * @swagger
+ * /register:
+ *    post:
+ *      description: To register a new user
+ *    parameters:
+ *      - name: email
+ *        in: body
+ *      - name: name
+ *        in: body
+ *      - name: password
+ *        in: body
+ *        description: unique email,password and name of our customer
+ *        required: true
+ *        schema:
+ *          type: string
+ *          format: string
+ *    responses:
+ *      '200':
+ *        description: Successfully registered new user
+ */
 
 router.post("/register", (req, res) => {
   User.findOne({ email: req.body.email }).then(user => {

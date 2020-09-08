@@ -14,7 +14,7 @@
     "cab3": {
         "name": "santosh",
         "rating": 4.5,
-        "trips_taken": 156,
+        "trips_taken": 231,
         "area": "rethibowli"
     },
     "cab4": {
@@ -73,62 +73,62 @@
     },
     "cab13": {
         "name": "Abhilash",
-        "rating": 4.5,
-        "trips_taken": 32,
+        "rating": 4.34,
+        "trips_taken": 109,
         "area": "manikonda"
     },
     "cab14": {
         "name": "Sureka",
-        "rating": 4.32,
-        "trips_taken": 231,
+        "rating": 4.2,
+        "trips_taken": 328,
         "area": "chaderghat"
     },
     "cab15": {
         "name": "Arnav",
-        "rating": 4.5,
-        "trips_taken": 172,
+        "rating": 4.35,
+        "trips_taken": 178,
         "area": "kondapur"
     },
     "cab16": {
         "name": "Pranava",
-        "rating": 4.5,
-        "trips_taken": 156,
+        "rating": 4.45,
+        "trips_taken": 28,
         "area": "rethibowli"
     },
     "cab17": {
         "name": "Siddh",
-        "rating": 4.0,
-        "trips_taken": 12,
+        "rating": 4.32,
+        "trips_taken": 159,
         "area": "mehdipatnam"
     },
     "cab18": {
         "name": "Niharika",
-        "rating": 4.7,
-        "trips_taken": 45,
+        "rating": 4.77,
+        "trips_taken": 345,
         "area": "toliChowki"
     },
     "cab19": {
         "name": "Adya",
-        "rating": 4.9,
-        "trips_taken": 400,
+        "rating": 4.89,
+        "trips_taken": 125,
         "area": "dlf"
     },
     "cab20": {
         "name": "parul",
-        "rating": 3.5,
-        "trips_taken": 2,
+        "rating": 2.5,
+        "trips_taken": 20,
         "area": "thub"
     },
     "cab21": {
         "name": "palak",
-        "rating": 5.0,
-        "trips_taken": 200,
+        "rating": 3.0,
+        "trips_taken": 410,
         "area": "raidurg"
     },
     "cab22": {
         "name": "tia",
-        "rating": 4.5,
-        "trips_taken": 45,
+        "rating": 4.25,
+        "trips_taken": 1230,
         "area": "hitech city"
     },
     "cab23": {
@@ -139,158 +139,158 @@
     },
     "cab24": {
         "name": "sadat",
-        "rating": 2.8,
-        "trips_taken": 2000,
+        "rating": 4.24,
+        "trips_taken": 1237,
         "area": "jubilee hills"
     },
     "cab25": {
         "name": "surendra",
-        "rating": 4.2,
-        "trips_taken": 6,
+        "rating": 4.4,
+        "trips_taken": 69,
         "area": "banjara hills"
     },
     "cab26": {
         "name": "raju",
-        "rating": 4.5,
-        "trips_taken": 32,
+        "rating": 4.0,
+        "trips_taken": 159,
         "area": "manikonda"
     },
     "cab27": {
         "name": "samreen",
-        "rating": 4.5,
-        "trips_taken": 156,
+        "rating": 35,
+        "trips_taken": 234,
         "area": "gachibowli"
     },
     "cab28": {
         "name": "arpita",
-        "rating": 4.5,
-        "trips_taken": 172,
+        "rating": 4.8,
+        "trips_taken": 772,
         "area": "kondapur"
     },
     "cab29": {
         "name": "mehak",
         "rating": 4.5,
-        "trips_taken": 156,
+        "trips_taken": 1238,
         "area": "rethibowli"
     },
     "cab30": {
         "name": "lovely singh",
-        "rating": 4.0,
-        "trips_taken": 12,
+        "rating": 3.0,
+        "trips_taken": 314,
         "area": "mehdipatnam"
     },
     "cab31": {
         "name": "jeevan",
-        "rating": 4.7,
-        "trips_taken": 45,
+        "rating": 4.12,
+        "trips_taken": 23,
         "area": "toliChowki"
     },
     "cab32": {
         "name": "rajesh",
-        "rating": 4.9,
-        "trips_taken": 400,
+        "rating": 4.7,
+        "trips_taken": 12,
         "area": "dlf"
     },
     "cab33": {
         "name": "raghu",
-        "rating": 3.5,
-        "trips_taken": 2,
+        "rating": 3.89,
+        "trips_taken": 207,
         "area": "thub"
     },
     "cab34": {
         "name": "kaushik",
         "rating": 5.0,
-        "trips_taken": 200,
+        "trips_taken": 900,
         "area": "raidurg"
     },
     "cab35": {
         "name": "suprem",
         "rating": 4.5,
-        "trips_taken": 45,
+        "trips_taken": 106,
         "area": "hitech city"
     },
     "cab36": {
         "name": "Varsha",
         "rating": 4.5,
-        "trips_taken": 43,
+        "trips_taken": 643,
         "area": "mahesh"
     },
     "cab37": {
         "name": "karthik",
-        "rating": 2.8,
+        "rating": 3.8,
         "trips_taken": 2000,
         "area": "jubilee hills"
     },
     "cab38": {
         "name": "ranjit",
-        "rating": 4.2,
-        "trips_taken": 6,
+        "rating": 4.1,
+        "trips_taken": 60,
         "area": "banjara hills"
     },
     "cab39": {
         "name": "rohit",
-        "rating": 4.5,
-        "trips_taken": 32,
+        "rating": 4.3,
+        "trips_taken": 167,
         "area": "manikonda"
     },
     "cab40": {
         "name": "manideep",
-        "rating": 4.5,
-        "trips_taken": 156,
+        "rating": 5,
+        "trips_taken": 56,
         "area": "gachibowli"
     },
     "cab41": {
         "name": "samar",
-        "rating": 4.5,
-        "trips_taken": 172,
+        "rating": 2.5,
+        "trips_taken": 472,
         "area": "kondapur"
     },
     "cab42": {
         "name": "apoorva",
-        "rating": 4.5,
-        "trips_taken": 156,
+        "rating": 3.95,
+        "trips_taken": 1209,
         "area": "rethibowli"
     },
     "cab43": {
         "name": "neha",
-        "rating": 4.0,
-        "trips_taken": 12,
+        "rating": 3.8,
+        "trips_taken": 120,
         "area": "mehdipatnam"
     },
     "cab44": {
         "name": "georgie",
-        "rating": 4.7,
-        "trips_taken": 45,
+        "rating": 4.1,
+        "trips_taken": 139,
         "area": "toliChowki"
     },
     "cab45": {
         "name": "rohan",
         "rating": 4.9,
-        "trips_taken": 400,
+        "trips_taken": 209,
         "area": "dlf"
     },
     "cab46": {
         "name": "ramya",
         "rating": 3.5,
-        "trips_taken": 2,
+        "trips_taken": 40,
         "area": "thub"
     },
     "cab47": {
         "name": "naga sai",
         "rating": 5.0,
-        "trips_taken": 200,
+        "trips_taken": 100,
         "area": "raidurg"
     },
     "cab48": {
         "name": "laxman",
         "rating": 4.5,
-        "trips_taken": 45,
+        "trips_taken": 645,
         "area": "hitech city"
     },
     "cab50": {
         "name": "ramu",
-        "rating": 4.5,
-        "trips_taken": 43,
+        "rating": 4.76,
+        "trips_taken": 243,
         "area": "madhapur"
     }
 }

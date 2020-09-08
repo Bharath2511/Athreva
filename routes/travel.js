@@ -67,6 +67,7 @@ router.put(
       console.log(pickup);
       const { destination } = req.body;
       let filteredArray = entries.filter(i => i[1].area === pickup);
+      console.log(filteredArray);
       const id = req.params.id;
       let data = await User.findById(id);
       if (!data) {
@@ -81,7 +82,7 @@ router.put(
           pickup,
           destination,
           // cabs: allCabs,
-          availablecabs: filteredArray[0][1],
+          availablecabs: filteredArray,
           // driverDetails: best,
           time: time,
           cabs: entries.length

@@ -10,16 +10,11 @@ let content = fs.readFileSync(
   "/home/bharath/Videos/athreva-project/routes/cabs.json",
   "utf-8"
 );
-//generating random cars
-let avalailableCabs = 10;
 //convering string into object
 let parsedContent = JSON.parse(content);
 //converting objct into array
 let entries = Object.entries(parsedContent);
-//custom function for generating random driver
-function randomDriver(i) {
-  return Math.floor(Math.random() * i);
-}
+
 //ROUTES
 //route for getting details about one particular user
 router.get("/:id", async (req, res) => {
@@ -60,42 +55,48 @@ router.put(
   "/travel/:id",
   passport.authenticate("jwt", { session: false }),
   async (req, res) => {
-    let allCabs = Math.floor(Math.random() * avalailableCabs);
-    console.log(34, allCabs);
+    // let allCabs = Math.floor(Math.random() * avalailableCabs);
+    // console.log(34, allCabs);
     let time = `${date.getDate()}/${date.getMonth() +
       1}/${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-    let driver = await randomDriver(entries.length);
-    let best = entries[driver][1];
-    console.log(best);
+    //let driver = await randomDriver(entries.length);
+    // let best = entries[driver][1];
+    //  console.log(best);
     try {
-      const { pickup, destination } = req.body;
+      const pickup = req.body.pickup.toLowerCase();
+      console.log(pickup);
+      const { destination } = req.body;
+      let filteredArray = entries.filter(i => i[1].area === pickup);
       const id = req.params.id;
       let data = await User.findById(id);
       if (!data) {
         res.status(404).json("there is no user registered with this email");
+      }
+      if (filteredArray.length === 0) {
+        filteredArray = "Sorry All The Drivers Are Busy At The Moment";
+        return res.status(404).send("We Do not Operate In that area");
       } else {
-        if (data.count) {
-          const details = {
-            pickup,
-            destination,
-            cabs: allCabs,
-            driverDetails: best,
-            time: time
-          };
-          data.trip.push(details);
-          console.log(data, "33");
-          data.count += 1;
-          const updateData = await User.findByIdAndUpdate(req.params.id, data);
-          if (updateData) {
-            return res
-              .status(200)
-              .json({ bestDriver: best, NoOfCabs: allCabs });
-          } else {
-            return res.status(404).json("no user found with the provided id");
-          }
+        // if (data.count) {
+        const details = {
+          pickup,
+          destination,
+          // cabs: allCabs,
+          availablecabs: filteredArray[0][1],
+          // driverDetails: best,
+          time: time,
+          cabs: entries.length
+        };
+        data.trip.push(details);
+        data.count += 1;
+        const updateData = await User.findByIdAndUpdate(req.params.id, data);
+        if (updateData) {
+          return res.status(200).json({ bestDriver: details });
         } else {
-          res.status(403).json("you have reached your quota");
+          return res.status(404).json("no user found with the provided id");
         }
+        //  } else {
+        res.status(403).json("you have reached your quota");
+        // }
       }
     } catch (e) {
       console.log(e);

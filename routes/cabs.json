@@ -2,66 +2,79 @@
     "cab1": {
         "name": "Prakash",
         "rating": 4.5,
-        "trips_taken": 156
+        "trips_taken": 156,
+        "area": "gachibowli"
     },
     "cab2": {
         "name": "Bharath",
         "rating": 4.5,
-        "trips_taken": 172
+        "trips_taken": 172,
+        "area": "kondapur"
     },
     "cab3": {
-        "name": "Santosh",
+        "name": "santosh",
         "rating": 4.5,
-        "trips_taken": 156
+        "trips_taken": 156,
+        "area": "rethibowli"
     },
     "cab4": {
         "name": "Abhinita",
         "rating": 4.0,
-        "trips_taken": 12
+        "trips_taken": 12,
+        "area": "mehdipatnam"
     },
     "cab5": {
         "name": "John",
         "rating": 4.7,
-        "trips_taken": 45
+        "trips_taken": 45,
+        "area": "toliChowki"
     },
     "cab6": {
         "name": "Baby Driver",
         "rating": 4.9,
-        "trips_taken": 400
+        "trips_taken": 400,
+        "area": "dlf"
     },
     "cab7": {
         "name": "Rajkumar",
         "rating": 3.5,
-        "trips_taken": 2
+        "trips_taken": 2,
+        "area": "thub"
     },
     "cab8": {
         "name": "Alluri Seetharama Raju",
         "rating": 5.0,
-        "trips_taken": 200
+        "trips_taken": 200,
+        "area": "raidurg"
     },
     "cab9": {
         "name": "Jagadish",
         "rating": 4.5,
-        "trips_taken": 45
+        "trips_taken": 45,
+        "area": "hitech city"
     },
     "cab10": {
         "name": "Varsha",
         "rating": 4.5,
-        "trips_taken": 43
+        "trips_taken": 43,
+        "area": "madhapur"
     },
     "cab11": {
         "name": "John Doe",
         "rating": 2.8,
-        "trips_taken": 2000
+        "trips_taken": 2000,
+        "area": "jubilee hills"
     },
     "cab12": {
         "name": "Ekalavya",
         "rating": 4.2,
-        "trips_taken": 6
+        "trips_taken": 6,
+        "area": "banjara hills"
     },
     "cab13": {
         "name": "Abhilash",
         "rating": 4.5,
-        "trips_taken": 32
+        "trips_taken": 32,
+        "area": "manikonda"
     }
 }

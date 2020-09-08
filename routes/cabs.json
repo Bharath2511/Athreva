@@ -1,0 +1,67 @@
+{
+    "cab1": {
+        "name": "Prakash",
+        "rating": 4.5,
+        "trips_taken": 156
+    },
+    "cab2": {
+        "name": "Bharath",
+        "rating": 4.5,
+        "trips_taken": 172
+    },
+    "cab3": {
+        "name": "Santosh",
+        "rating": 4.5,
+        "trips_taken": 156
+    },
+    "cab4": {
+        "name": "Abhinita",
+        "rating": 4.0,
+        "trips_taken": 12
+    },
+    "cab5": {
+        "name": "John",
+        "rating": 4.7,
+        "trips_taken": 45
+    },
+    "cab6": {
+        "name": "Baby Driver",
+        "rating": 4.9,
+        "trips_taken": 400
+    },
+    "cab7": {
+        "name": "Rajkumar",
+        "rating": 3.5,
+        "trips_taken": 2
+    },
+    "cab8": {
+        "name": "Alluri Seetharama Raju",
+        "rating": 5.0,
+        "trips_taken": 200
+    },
+    "cab9": {
+        "name": "Jagadish",
+        "rating": 4.5,
+        "trips_taken": 45
+    },
+    "cab10": {
+        "name": "Varsha",
+        "rating": 4.5,
+        "trips_taken": 43
+    },
+    "cab11": {
+        "name": "John Doe",
+        "rating": 2.8,
+        "trips_taken": 2000
+    },
+    "cab12": {
+        "name": "Ekalavya",
+        "rating": 4.2,
+        "trips_taken": 6
+    },
+    "cab13": {
+        "name": "Abhilash",
+        "rating": 4.5,
+        "trips_taken": 32
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "cab1": {
+        "name": "Prakash",
+        "rating": 4.5,
+        "trips_taken": 156
+    },
+    "cab2": {
+        "name": "Bharath",
+        "rating": 4.5,
+        "trips_taken": 172
+    },
+    "cab3": {
+        "name": "Santosh",
+        "rating": 4.5,
+        "trips_taken": 156,
+        "medals": "Auto Driver of the year(specially for inter girls)"
+    }
+}
